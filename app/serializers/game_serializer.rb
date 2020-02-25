@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
 class GameSerializer < ActiveModel::Serializer
-  attributes :id, :given_name, :review, :recommend
+  attributes :given_name, :review, :recommend, :id
   belongs_to :user
 end

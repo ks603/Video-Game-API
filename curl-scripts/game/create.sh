@@ -7,7 +7,6 @@ curl "http://localhost:4741/games" \
     "game": {
       "given_name": "'"${GIVENNAME}"'",
       "review": "'"${REVIEW}"'",
-      "recommend": "'"${RECOMMEND}"'",
-      "user_id": "'"${USERID}"'"
+      "recommend": "'"${RECOMMEND}"'"
     }
   }'
