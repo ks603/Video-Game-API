@@ -18,6 +18,12 @@ This is the backend of my project 2. This will hold the data and interact with h
 # **Client Side Repository**
 - Link to the client side repo: [Client Side Repository](https://github.com/ks603/Game-API-client)
 
+- Link to the client repo: [Client Repository](https://github.com/ks603/Game-API-client)
+
+- Link to the deployed back-end: [Deployed Back-End](https://video-game-sei.herokuapp.com/)
+
+- Link to the deployed site: [Video Games](https://ks603.github.io/Game-API-client/)
+
 # **Entity Relationship Diagram For Ticket (ERD)**
 ![Login Page](https://i.imgur.com/hONj5S1.png)
 
