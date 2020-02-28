@@ -1,9 +1,12 @@
+# frozen_string_literal: true
+
 class GamesController < OpenReadController
-  before_action :set_game, only: [:show, :update, :destroy]
+  before_action :set_game, only: %i[show update destroy]
 
   # GET /games
   def index
     @games = Game.all
+    # games = current_user.games
 
     render json: @games
   end
@@ -39,13 +42,14 @@ class GamesController < OpenReadController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_game
-      @game = current_user.games.find(params[:id])
-    end
 
-    # Only allow a trusted parameter "white list" through.
-    def game_params
-      params.require(:game).permit(:given_name, :review, :recommend)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_game
+    @game = current_user.games.find(params[:id])
+  end
+
+  # Only allow a trusted parameter "white list" through.
+  def game_params
+    params.require(:game).permit(:given_name, :review, :recommend)
+  end
 end

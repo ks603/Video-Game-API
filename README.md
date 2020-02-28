@@ -3,7 +3,9 @@
 Video Game API for project two.
 
 # **Description**
-This is the backend of my project 2. This will hold the data and interact with heroku.
+This is the backend of my project 2. This will hold the data and interact with heroku. For this project we built an API using Ruby. The raltionship between the
+user and the video games is the user has many video games and video games belongs
+to the user.
 
 
 # **Technologies Used**
@@ -16,7 +18,7 @@ This is the backend of my project 2. This will hold the data and interact with h
 - Ruby on Rails
 
 # **Client Side Repository**
-- Link to the client side repo: [Client Side Repository](https://github.com/ks603/Game-API-client)
+- Link to the API repo: [API Repository](https://github.com/ks603/Video-Game-API)
 
 - Link to the client repo: [Client Repository](https://github.com/ks603/Game-API-client)
 
