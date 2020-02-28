@@ -17,7 +17,7 @@ to the user.
 
 - Ruby on Rails
 
-# **Client Side Repository**
+# **Links**
 - Link to the API repo: [API Repository](https://github.com/ks603/Video-Game-API)
 
 - Link to the client repo: [Client Repository](https://github.com/ks603/Game-API-client)
